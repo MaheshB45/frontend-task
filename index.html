@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend-Task</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+
+      <!-- Top Title -->
+      <div class="headline">
+        <div><hr class="divider"></div>
+        <h3>YAY! It's BOGO</h3>
+        <div><hr class="divider"></div>
+      </div>
+
+      <!-- OPTION 1 -->
+      <article class="option-card active" data-price="10" data-option="1">
+        <header class="option-header">
+          <div class="option-left">
+            <input
+              type="radio"
+              name="plan"
+              class="plan-radio"
+              checked
+              aria-label="1 unit plan"
+            />
+            <div class="option-main">
+              <div class="option-title-row">
+                <span class="option-title">1 Unit</span>
+                <span class="tag tag--small">10% Off</span>
+              </div>
+              <p class="option-subtitle">Standard Price</p>
+            </div>
+          </div>
+
+          <div class="option-right">
+            <div class="price-current">$10.00 USD</div>
+            <div class="price-old">$24.00 USD</div>
+          </div>
+        </header>
+
+        <!-- Expanding body -->
+        <div class="option-body">
+          <div class="variant-row">
+            <span class="variant-label">#1</span>
+            <div class="variant-selects">
+              <label>
+                <span class="variant-caption">Size</span>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </label>
+              <label>
+                <span class="variant-caption">Colour</span>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                  <option>Blue</option>
+                </select>
+              </label>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- OPTION 2 (MOST POPULAR) -->
+      <article class="option-card option-card--popular" data-price="18" data-option="2">
+        <header class="option-header">
+          <div class="option-left">
+            <input
+              type="radio"
+              name="plan"
+              class="plan-radio"
+              aria-label="2 unit plan"
+            />
+            <div class="option-main">
+              <div class="option-title-row">
+                <span class="option-title">2 Unit</span>
+                <span class="tag tag--medium">20% Off</span>
+              </div>
+              <p class="option-subtitle">Best value</p>
+            </div>
+          </div>
+
+          <div class="option-right">
+            <div class="price-current">$18.00 USD</div>
+            <div class="price-old">$24.00 USD</div>
+          </div>
+
+          <!-- Most popular badge -->
+          <div class="popular-badge">MOST POPULAR</div>
+        </header>
+
+        <div class="option-body">
+          <div class="variant-row">
+            <span class="variant-label">#1</span>
+            <div class="variant-selects">
+              <label>
+                <span class="variant-caption">Size</span>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </label>
+              <label>
+                <span class="variant-caption">Colour</span>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                  <option>Blue</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="variant-row">
+            <span class="variant-label">#2</span>
+            <div class="variant-selects">
+              <label>
+                <span class="variant-caption">Size</span>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </label>
+              <label>
+                <span class="variant-caption">Colour</span>
+                <select>
+                  <option>Colour</option>
+                  <option>Black</option>
+                  <option>White</option>
+                  <option>Blue</option>
+                </select>
+              </label>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- OPTION 3 -->
+      <article class="option-card" data-price="24" data-option="3">
+        <header class="option-header">
+          <div class="option-left">
+            <input
+              type="radio"
+              name="plan"
+              class="plan-radio"
+              aria-label="3 unit plan"
+            />
+            <div class="option-main">
+              <div class="option-title-row">
+                <span class="option-title">3 Unit</span>
+                <span class="tag tag--large">30% Off</span>
+              </div>
+              <p class="option-subtitle">Bulk savings</p>
+            </div>
+          </div>
+
+          <div class="option-right">
+            <div class="price-current">$24.00 USD</div>
+            <div class="price-old">$24.00 USD</div>
+          </div>
+        </header>
+
+        <div class="option-body">
+          <div class="variant-row">
+            <span class="variant-label">#1</span>
+            <div class="variant-selects">
+              <label>
+                <span class="variant-caption">Size</span>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </label>
+              <label>
+                <span class="variant-caption">Colour</span>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                  <option>Blue</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="variant-row">
+            <span class="variant-label">#2</span>
+            <div class="variant-selects">
+              <label>
+                <span class="variant-caption">Size</span>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </label>
+              <label>
+                <span class="variant-caption">Colour</span>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                  <option>Blue</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="variant-row">
+            <span class="variant-label">#3</span>
+            <div class="variant-selects">
+              <label>
+                <span class="variant-caption">Size</span>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </label>
+              <label>
+                <span class="variant-caption">Colour</span>
+                <select>
+                  <option>Black</option>
+                  <option>White</option>
+                  <option>Blue</option>
+                </select>
+              </label>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Bottom summary -->
+      <div class="footer-row">
+        <span class="free-delivery">Free Delivery</span>
+        <span class="total-price">Total : <strong id="totalAmount">$10.00 USD</strong></span>
+      </div>
+
+      <button class="btn-add" type="button" id="addToCartBtn">
+        + Add to Cart
+      </button>
+
+      <p class="powered">© Powered by Pumper</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
